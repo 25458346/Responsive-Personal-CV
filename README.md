@@ -1,49 +1,55 @@
-# Responsive Personal CV
+ Responsive Personal CV Website – HTML & CSS
 
-This is a **Responsive Personal CV Website** built using **HTML, CSS, and JavaScript**.  
-It showcases personal information, skills, education, and portfolio projects in a clean, modern, and responsive design.
-
----
-
-## 🚀 Features
-- Fully **responsive layout** for desktop, tablet, and mobile
-- **Personal Information** section (name, contact, location)
-- **Skills** section (technical & soft skills)
-- **Education** and **Certifications**
-- **Portfolio/Projects** section with descriptions
-- Lightweight, easy-to-read code structure
+## 📌 Objective
+Create a **static, multi-page, responsive CV website** using HTML5 and CSS3, showcasing semantic HTML, advanced CSS, and modern best practices.
 
 ---
 
-## 📂 Project Structure
-Responsive-Personal-CV/
-│── index.html # Main CV page
-│── style.css # Stylesheet for layout and design
-│── script.js # Optional JS for interactivity
-│── assets/ # Images and icons
-└── README.md # Project documentation
+## 🚀 Overview
+- **Pages:** `index.html`, `about.html`, `portfolio.html`, `contact.html`  
+- **Responsive Design:** Works on mobile, tablet, and desktop  
+- **Static Website:** Pure HTML & CSS, no JavaScript  
+- **Semantic & SEO-Friendly:** Proper tags, headings, and meta info  
+
+---
+
+## 📝 HTML Features
+- Semantic structure (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`)  
+- Ordered & unordered lists for skills and experience  
+- Table for education or work history  
+- Contact form, images, and external links  
+
+---
+
+## 🎨 CSS Features
+- Variety of selectors (element, class, ID, pseudo-classes)  
+- CSS Grid and Flexbox layouts  
+- Web-safe fonts + Google Fonts with hierarchy  
+- Responsive design via media queries  
+
+---
+
+## 📂 Folder Structure
+/Responsive-Personal-CV
+│── index.html
+│── about.html
+│── portfolio.html
+│── contact.html
+├── /css/style.css
+├── /images/profile.jpg
+└── README.md
 
 Copy
 Edit
 
 ---
 
-## 🔧 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/25458346/Responsive-Personal-CV.git
-Navigate to the project folder:
-
-bash
-Copy
-Edit
-cd Responsive-Personal-CV
+## 💻 How to Use
+1. Clone the repo:
+```bash
+git clone https://github.com/25458346/Responsive-Personal-CV.git
 Open index.html in a browser to view your CV.
 
-
-
-
-
-
-
+🌍 Live Demo
+https://25458346.github.io/Responsive-Personal-CV/
 
