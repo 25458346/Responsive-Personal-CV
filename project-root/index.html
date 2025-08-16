@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dagim Biruk Abay - Software Engineering Student CV">
+    <meta name="keywords" content="software engineer, student, java, python, c#, developer">
+    <meta name="author" content="Dagim Biruk Abay">
+    <title>Dagim Biruk Abay - CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Dagim Biruk Abay</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-controls">
+                    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Light/Dark Mode">
+                        <span id="theme-icon">☀️</span>
+                    </button>
+                    <button class="print-btn" onclick="window.print()" title="Print/Download CV">📄 Print CV</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <img src="images/profile.jpg" alt="Dagim Biruk Abay Profile Picture">
+                    </div>
+                    <div class="hero-text">
+                        <h1>Software Engineering Student</h1>
+                        <p class="hero-subtitle">Passionate about building innovative software solutions</p>
+                        <div class="hero-info">
+                            <p><strong>Location:</strong> Addis Ababa, Ethiopia</p>
+                            <p><strong>Phone:</strong> 0942353300</p>
+                            <p><strong>Email:</strong> dagimbiruk23@gmail.com</p>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="about.html" class="btn btn-primary">Learn More</a>
+                            <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-preview">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h3>Java</h3>
+                        <p>Object-oriented programming</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>C#</h3>
+                        <p>.NET development</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>C++</h3>
+                        <p>System programming</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Python</h3>
+                        <p>Web development & scripting</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-preview">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Student Management System</h3>
+                        <p>A comprehensive system for managing student records efficiently with user-friendly interface.</p>
+                        <a href="portfolio.html" class="project-link">View Details</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Inventory Management System</h3>
+                        <p>Software solution to handle product stocks and warehouse management operations.</p>
+                        <a href="portfolio.html" class="project-link">View Details</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Personal Finance Tracker</h3>
+                        <p>Web application for tracking personal expenses and managing budgets with data visualization.</p>
+                        <a href="portfolio.html" class="project-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Print-only comprehensive CV summary -->
+        <section class="print-summary" style="display: none;">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="print-skills">
+                    <span>Java</span>
+                    <span>C#</span>
+                    <span>C++</span>
+                    <span>Python</span>
+                    <span>HTML/CSS</span>
+                    <span>Database Design</span>
+                    <span>Problem Solving</span>
+                    <span>Software Development</span>
+                </div>
+
+                <h2>Education</h2>
+                <p><strong>Bachelor's Degree in Software Engineering</strong> - Hilcoe College (2023-Present, 2 years completed)</p>
+                <p><strong>Certifications:</strong> Python Programming (W3Schools), Programming Fundamentals (Udacity)</p>
+
+                <div class="print-projects">
+                    <h2>Completed Projects</h2>
+                    <h3>Student Management System</h3>
+                    <ul>
+                        <li>Developed using Java with database connectivity</li>
+                        <li>Implemented user-friendly interface for student record management</li>
+                        <li>Applied object-oriented programming concepts</li>
+                    </ul>
+
+                    <h3>Inventory Management System</h3>
+                    <ul>
+                        <li>Built with C# for product inventory tracking</li>
+                        <li>Implemented CRUD operations and data validation</li>
+                        <li>Created professional user interface</li>
+                    </ul>
+
+                    <h3>Responsive Personal CV Website</h3>
+                    <ul>
+                        <li>Designed with HTML5 and CSS3</li>
+                        <li>Implemented responsive design and modern animations</li>
+                        <li>Applied semantic markup and accessibility principles</li>
+                    </ul>
+                </div>
+
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> dagimbiruk23@gmail.com | <strong>Phone:</strong> 0942353300</p>
+                <p><strong>Location:</strong> Addis Ababa, Ethiopia | <strong>Instagram:</strong> @dagi8346</p>
+                <p><strong>Name:</strong> Dagim Biruk Abay - Software Engineering Student</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dagim Biruk Abay. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://instagram.com/dagi8346" target="_blank" class="social-link instagram">
+                    <div class="instagram-icon"></div>
+                    <div class="social-text">
+                        <span class="social-username">@dagi8346</span>
+                        <span class="social-tagline">Follow my coding journey!</span>
+                    </div>
+                </a>
+                <a href="#" class="social-link linkedin">
+                    <div class="linkedin-icon"></div>
+                    <div class="social-text">
+                        <span class="social-username">Connect Soon</span>
+                        <span class="social-tagline">Professional network coming!</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+
+            if (body.classList.contains('dark-theme')) {
+                // Switch to light theme
+                body.classList.remove('dark-theme');
+                body.classList.add('light-theme');
+                themeIcon.textContent = '🌙';
+                localStorage.setItem('theme', 'light');
+            } else {
+                // Switch to dark theme
+                body.classList.remove('light-theme');
+                body.classList.add('dark-theme');
+                themeIcon.textContent = '☀️';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        // FORCE DARK MODE AS DEFAULT - ALWAYS START DARK
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme');
+            const themeIcon = document.getElementById('theme-icon');
+
+            // ALWAYS start with dark theme unless explicitly saved as light
+            if (savedTheme === 'light') {
+                document.body.classList.remove('dark-theme');
+                document.body.classList.add('light-theme');
+                themeIcon.textContent = '🌙';
+            } else {
+                // FORCE dark theme as default
+                document.body.classList.remove('light-theme');
+                document.body.classList.add('dark-theme');
+                themeIcon.textContent = '☀️';
+                if (!savedTheme) {
+                    localStorage.setItem('theme', 'dark');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

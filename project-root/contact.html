@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Dagim Biruk Abay - Software Engineering Student">
+    <meta name="keywords" content="contact, software engineer, student, hire, collaboration">
+    <meta name="author" content="Dagim Biruk Abay">
+    <title>Contact - Dagim Biruk Abay</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Dagim Biruk Abay</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="nav-controls">
+                    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Light/Dark Mode">
+                        <span id="theme-icon">☀️</span>
+                    </button>
+                    <button class="print-btn" onclick="window.print()" title="Print/Download CV">📄 Print CV</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>Let's connect and discuss opportunities</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h3>📧 Email</h3>
+                                <p>dagimbiruk23@gmail.com</p>
+                                <a href="mailto:dagimbiruk23@gmail.com">Send Email</a>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3>📱 Phone</h3>
+                                <p>0942353300</p>
+                                <a href="tel:+251942353300">Call Now</a>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3>📍 Location</h3>
+                                <p>Addis Ababa, Ethiopia</p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3>🌐 Online Presence</h3>
+                                <div class="social-links">
+                                    <a href="https://instagram.com/dagi8346" target="_blank">Instagram: @dagi8346</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="availability">
+                            <h3>Availability</h3>
+                            <p>I am currently available for:</p>
+                            <ul>
+                                <li>Internship opportunities</li>
+                                <li>Part-time software development roles</li>
+                                <li>Collaborative projects</li>
+                                <li>Freelance development work</li>
+                                <li>Technical consultations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <h2>Send Me a Message</h2>
+                        <form class="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="internship">Internship Opportunity</option>
+                                    <option value="job">Job Opportunity</option>
+                                    <option value="project">Project Collaboration</option>
+                                    <option value="freelance">Freelance Work</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Please describe your inquiry or opportunity in detail..."></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="newsletter" value="yes">
+                                    <span class="checkmark"></span>
+                                    I would like to receive updates about your projects and availability
+                                </label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                                <button type="reset" class="btn btn-secondary">Clear Form</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="response-time">
+            <div class="container">
+                <div class="response-info">
+                    <h2>Response Time</h2>
+                    <p>I typically respond to messages within <strong>24-48 hours</strong>. For urgent matters, please call directly.</p>
+                    
+                    <div class="best-times">
+                        <h3>Best Times to Reach Me</h3>
+                        <div class="time-slots">
+                            <div class="time-slot">
+                                <h4>Weekdays</h4>
+                                <p>9:00 AM - 6:00 PM (EAT)</p>
+                            </div>
+                            <div class="time-slot">
+                                <h4>Weekends</h4>
+                                <p>10:00 AM - 4:00 PM (EAT)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dagim Biruk Abay. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://instagram.com/dagi8346" target="_blank" class="social-link instagram">
+                    <div class="instagram-icon"></div>
+                    <div class="social-text">
+                        <span class="social-username">@dagi8346</span>
+                        <span class="social-tagline">Follow my coding journey!</span>
+                    </div>
+                </a>
+                <a href="#" class="social-link linkedin">
+                    <div class="linkedin-icon"></div>
+                    <div class="social-text">
+                        <span class="social-username">Connect Soon</span>
+                        <span class="social-tagline">Professional network coming!</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+
+            if (body.classList.contains('dark-theme')) {
+                // Switch to light theme
+                body.classList.remove('dark-theme');
+                body.classList.add('light-theme');
+                themeIcon.textContent = '🌙';
+                localStorage.setItem('theme', 'light');
+            } else {
+                // Switch to dark theme
+                body.classList.remove('light-theme');
+                body.classList.add('dark-theme');
+                themeIcon.textContent = '☀️';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        // FORCE DARK MODE AS DEFAULT - ALWAYS START DARK
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme');
+            const themeIcon = document.getElementById('theme-icon');
+
+            // ALWAYS start with dark theme unless explicitly saved as light
+            if (savedTheme === 'light') {
+                document.body.classList.remove('dark-theme');
+                document.body.classList.add('light-theme');
+                themeIcon.textContent = '🌙';
+            } else {
+                // FORCE dark theme as default
+                document.body.classList.remove('light-theme');
+                document.body.classList.add('dark-theme');
+                themeIcon.textContent = '☀️';
+                if (!savedTheme) {
+                    localStorage.setItem('theme', 'dark');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
